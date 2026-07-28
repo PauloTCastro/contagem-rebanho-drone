@@ -2,7 +2,7 @@
 
 Detecção e **contagem automática de gado** em pastagens a partir de imagens aéreas
 (drone/VANT). O objetivo é contar todos os animais de uma pastagem inteira em
-segundos, substituindo a contagem manual — que é lenta, sujeita a erro e cara em
+segundos, substituindo a contagem manual que é lenta, sujeita a erro e cara em
 propriedades grandes.
 
 O projeto usa **YOLO** (Ultralytics) para detecção e **SAHI** (*Slicing Aided
@@ -96,12 +96,12 @@ contagem-rebanho-drone/
 
 Este repositório **não versiona os dados**. Opções para obtê-los:
 
-- **Roboflow Universe** — buscar por *"cattle aerial"*, *"livestock drone"*,
+- **Roboflow Universe** buscar por *"cattle aerial"*, *"livestock drone"*,
   *"cow counting"*. Vários datasets públicos já vêm no formato YOLO.
-- **Anotação própria** — capturar imagens com drone e anotar em
+- **Anotação própria** capturar imagens com drone e anotar em
   [CVAT](https://www.cvat.ai/) ou [Roboflow](https://roboflow.com/). Recomendado
   para dados representativos do seu bioma/tipo de gado.
-- **Aumento sintético** — para robustez, aplicar variações de altitude, ângulo,
+- **Aumento sintético** para robustez, aplicar variações de altitude, ângulo,
   iluminação e sombra.
 
 Esperado apenas **uma classe**: `boi` (ou `cattle`). Organize no formato YOLO
@@ -202,6 +202,5 @@ contagem**:
 
 **Autor:** Paulo de Tarso Castro Silva ·
 [GitHub](https://github.com/PauloTCastro) ·
-Pós-graduação em Visão Computacional (PUC-Rio)
 
 Licença: MIT
