@@ -167,7 +167,7 @@ streamlit run app_streamlit.py
 
 ## 📊 Avaliação
 
-O projeto não avalia só detecção — o que interessa ao pecuarista é o **erro de
+O projeto não avalia só detecção o que interessa ao pecuarista é o **erro de
 contagem**:
 
 - **MAE** (Erro Absoluto Médio): em média, quantos animais de diferença por imagem.
@@ -200,7 +200,5 @@ contagem**:
 
 ---
 
-**Autor:** Paulo de Tarso Castro Silva ·
-[GitHub](https://github.com/PauloTCastro) ·
 
-Licença: MIT
+
