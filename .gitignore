@@ -1,0 +1,24 @@
+# Dados e pesos (não versionar)
+data/raw/
+data/dataset/
+data/exemplo/
+*.pt
+*.onnx
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Ambiente / IDE
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Saídas
+assets/resultado*.jpg
+outputs/
