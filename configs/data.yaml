@@ -1,0 +1,11 @@
+# Configuração do dataset no formato Ultralytics YOLO.
+# Ajuste os caminhos conforme a saída de src/prepare_dataset.py.
+
+path: ../data/dataset   # raiz do dataset
+train: images/train
+val: images/val
+test: images/test       # opcional
+
+# Uma única classe: gado
+names:
+  0: boi
